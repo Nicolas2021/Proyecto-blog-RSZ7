@@ -1,0 +1,151 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.html .body{
+    height: 100%;
+}
+
+/*CONTENEDOR*/
+.conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgb(37, 35, 35);
+    width: 100%;
+    height: 150px;
+}
+.titular{
+    display: flex;
+    padding: 15px;
+    font-size: 50px;
+}
+.ti{
+    color: black;
+    background-color: orangered;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+
+    
+}
+.user{
+    font-size: 50px;
+    align-self: flex-end;
+}
+.inmod{
+    margin-top: -20px;
+}
+.inmod2{
+    margin-bottom: -20px;
+}
+.redondeado{
+    border-radius: 5px;
+    
+}
+
+
+
+/*CUERPO*/
+.body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.organizador{
+    background-color: rgb(203, 203, 204);
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.barra{
+    width: 870px;
+    padding: 10px;
+    overflow: hidden;
+}
+.buscador{
+    margin-top: 10px;
+}
+.org{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(126, 126, 126);
+    padding: 10px;
+}
+.org:hover{
+    background-color: black;
+}
+/*    */
+.imagenes{
+    background-color: rgb(22, 22, 22);
+    height: -100%;
+    width: 300px;
+}
+.imegi{
+    height: auto;
+    width: 100%;
+}
+.cuerpo{
+    padding: 30px;
+    height: 100%;
+    width: 70%;
+
+}
+
+.corregir{
+    padding: 50px;
+    height: 600px;
+    width: 900px;
+}
+.subtitulos{
+    font-size: 30px;
+}
+.textos{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    line-height: .5cm;
+}
+
+
+
+
+/*CONTACTO*/
+.contact{
+    display: flexbox;
+    background-color: rgb(83, 79, 79);
+    height: 250px;
+    width: 100%;
+}
+
+.menu{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.mover{
+    font-size: 40px;
+    color: white;
+    height: 90px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.acomodar{
+    margin: 70px;
+    display: inline-flex;
+    align-items: center;
+}
